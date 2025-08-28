@@ -3,7 +3,7 @@
 A simple, interactive Dice Game built with React (via Vite) — part of a learning series that combines Figma design, React UI development, and game logic. 
 
 ##  Live Preview  
-*(Link to live demo if deployed)*
+*https://dicegame-keerthikumar.vercel.app/*
 
 ---
 
