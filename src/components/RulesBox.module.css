@@ -1,0 +1,23 @@
+.container {
+  background-color: lavenderblush; /* light pinkish-beige */
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.list {
+  list-style: disc inside;
+  font-size: 0.95rem;
+  color: #000;
+  padding-left: 0;
+}

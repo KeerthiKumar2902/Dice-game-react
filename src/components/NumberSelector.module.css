@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.validation {
+  color: red;
+  font-weight: 600;
+}
+
+.numbers {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.numberBtn {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.numberBtn:hover {
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
+.userIcon {
+  margin-top: 0.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
