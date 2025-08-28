@@ -1,12 +1,30 @@
-# React + Vite
+# Dice Game React (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, interactive Dice Game built with React (via Vite) — part of a learning series that combines Figma design, React UI development, and game logic. 
 
-Currently, two official plugins are available:
+##  Live Preview  
+*(Link to live demo if deployed)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Game Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Landing Screen**: Full-screen design with a big **DICE GAME** title (Poppins font), large dice image, and a **PLAY GAME** button that navigates to the game page using React Router.
+
+- **Game Mechanics**:
+  1. Choose a number between **1 and 6** from the number selector (top-right).
+  2. Click the **dice image** in the center to roll.
+     - If your selection matches the roll → you gain that amount.
+     - If it doesn't → you lose 2 points.
+  3. The score updates (displayed top-left), and you must select again before the next roll.
+  4. Use **Reset Score** to restart at zero, and **Show/Hide Rules** to toggle game instructions.
+
+---
+
+##  Run Locally
+
+```bash
+git clone https://github.com/KeerthiKumar2902/Dice-game-react.git
+cd Dice-game-react
+npm install
+npm run dev
